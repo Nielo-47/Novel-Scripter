@@ -1,0 +1,12 @@
+.botao {
+    display: flex;
+    box-sizing: border-box;
+    width: 5vw;
+    height: 4vh;
+    background: #482758;
+    border: 1px solid #FEFEFE;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 2vh;
+}

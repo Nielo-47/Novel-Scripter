@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.simbolo {
+    font-size: 128px;
+}
+
+.titulo {
+    display: flex;
+    font-size: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.subtitulo {
+    display: flex;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+}

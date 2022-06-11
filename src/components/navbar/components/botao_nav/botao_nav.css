@@ -1,0 +1,11 @@
+.botaoNav {
+    display: flex;
+    box-sizing: border-box;
+    width: 8.5vw;
+    height: 6.5vh;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
