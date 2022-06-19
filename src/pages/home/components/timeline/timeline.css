@@ -1,0 +1,13 @@
+.timeline {
+    display: grid;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 90%;
+    height: 115vh;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 30%);
+    grid-row-gap: 2%;
+}

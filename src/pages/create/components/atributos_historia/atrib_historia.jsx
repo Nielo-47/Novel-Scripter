@@ -28,7 +28,7 @@ function EditarDescricaoHist({ historia }) {
 }
 
 
-function AtributosHistoria({ historia }) {
+function AtributosHistoria({ historia, salvarHistoria }) {
     const generos = [
         {
             value: 'drama',
@@ -55,6 +55,7 @@ function AtributosHistoria({ historia }) {
             label: 'Comédia',
         },
     ];
+    console.log('GENERO', historia.genero)
 
     return (
         <div className='editarAtributosHistoria'>
@@ -83,7 +84,6 @@ function AtributosHistoria({ historia }) {
                     <div>Gênero</div>
                     <select
                         className='selecionarGenero'
-                        defaultValue={historia.genero ?? ''}
                         onChange={(event) => historia.genero = event.target.value}
                     >
                         {generos.map((option) => (
@@ -95,7 +95,15 @@ function AtributosHistoria({ historia }) {
                 </div>
             </div >
             <EditarDescricaoHist historia={historia} />
-            <div className='botaoSalvarHistoria'>
+            <div className='botaoSalvarHistoria' onClick={() => {
+                console.log('titulo', historia.titulo)
+                console.log('descricao', historia.descricao)
+                console.log('genero', historia.genero)
+                console.log('paginas', historia.paginas)
+                if (historia.titulo != null && historia.descricao != null && historia.genero != null && historia.paginas.length != 0) {
+                    salvarHistoria();
+                }
+            }}>
                 <CheckCircleIcon fontSize='large' style={{ color: 'white' }} />
                 Salvar história
             </div>

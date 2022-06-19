@@ -1,5 +1,6 @@
 import React from 'react'
 import Feed from './components/feed/feed';
+import Timeline from './components/timeline/timeline';
 import "./home.css"
 
 function Home() {
@@ -7,7 +8,9 @@ function Home() {
         <div className='home'>
             <div className='homeContainer'>
                 <Feed />
+                <Timeline />
             </div>
+
         </div>
     )
 }

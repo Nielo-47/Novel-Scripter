@@ -1,11 +1,14 @@
 import React from 'react'
 import './banner.css'
 import BotaoLoginCadastro from './components/login_botao/login_botao.jsx'
+import { useNavigate } from "react-router-dom";
 
 function Banner() {
+    let navigate = useNavigate();
+
     return (
         <div className='banner' style={{marginLeft:'2vw', marginRight:'2vw'}}>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div style={{ display: "flex", alignItems: "center", cursor:'pointer' } } onClick={()=> navigate('/home')}>
                 <div className='simbolo'>
                     NS
                 </div>

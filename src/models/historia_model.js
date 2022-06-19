@@ -24,6 +24,10 @@ class Historia {
     gerarNovoId() {
         return Math.max.apply(null, this.gerarListaDeIds()) + 1
     }
+
+    obterPaginaPorId({id}) {
+        return this.paginas.filter((pag) => pag.id === id)[0]
+    }
 }
 
 export default Historia

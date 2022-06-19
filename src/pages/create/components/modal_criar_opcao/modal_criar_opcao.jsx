@@ -49,7 +49,7 @@ function ModalCriarOpcao({ pagina, fecharModal, indiceOpcao, historia }) {
             <div className='selecaoPaginaDestino'>
                 {
                     historia.paginas != null
-                        ? historia.paginas.map((pag) =>
+                        ? historia.paginas.filter((pag) => pag.id != pagina.id).map((pag) =>
                             <ThumbSelecionarLink paginaDestino={paginaDestino} pagina={pag} setPaginaDestino={setPaginaDestino} />
                         )
                         : null

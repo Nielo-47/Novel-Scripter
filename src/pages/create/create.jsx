@@ -5,9 +5,11 @@ import AtributosHistoria from './components/atributos_historia/atrib_historia'
 import CriacaoPagina from './components/criacao_pagina/criacao_pagina'
 import ThumbPagina from './components/thumbnail/thumb_pagina'
 import './create.css'
+import { useNavigate } from "react-router-dom";
 
 const Create = () => {
-    const [historia, mudarHistoria] = React.useState(new Historia(20, null, null, null, null, []))
+    const navigate = useNavigate();
+    const [historia, mudarHistoria] = React.useState(new Historia(20, null, 'Drama', null, 'Saitama', []))
     const [idPaginaAtual, mudarIdPagina] = React.useState(null);
     const [editando, ativarEdicao] = React.useState(false);
 
@@ -44,6 +46,14 @@ const Create = () => {
         ativarEdicao(false);
     }
 
+    function salvarHistoria() {
+        navigate(`/read/${historia.titulo}/1`, {
+            state: {
+                historia,
+            },
+        })
+    }
+
     return (
         <div>
             {
@@ -57,7 +67,7 @@ const Create = () => {
                             historia={historia} />
                     </div>
                     : <div className='areaCriacao'>
-                        <AtributosHistoria historia={historia} />
+                        <AtributosHistoria historia={historia} salvarHistoria={salvarHistoria} />
                         <div className='selecaoPaginas'>
                             {historia.paginas.map((pag) =>
                                 <ThumbPagina
