@@ -1,0 +1,173 @@
+.historiaCriacao {
+    display: flex;
+    position: fixed;
+    top: 28%;
+    left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoCriacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 60vh;
+    height: 40vh;
+    background: #6B6969;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 110%;
+    padding: 2%;
+}
+
+.imagemCriacao {
+    position: fixed;
+    top: 28%;
+    right: 5%;
+    width: 55vw;
+    height: 62vh;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: 'pointer'
+}
+
+.imagemExpandidaCriacao {
+    width: 95vw;
+    height: 70vh;
+    border-radius: 20px;
+    cursor: 'pointer'
+}
+
+.opcaoCriacao {
+    display: flex;
+    box-sizing: border-box;
+    width: 28vw;
+    height: 3vw;
+    border: 0.2vh solid #247CFF;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 140%;
+    font-weight: bold;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.textoVazioCriacao {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 40vh;
+    background: rgba(160, 160, 160, 0.47);
+    border: 1px dashed #FFFFFF;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.imagemVazioCriacao {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 28%;
+    right: 5%;
+    width: 55vw;
+    height: 62vh;
+    border-radius: 20px;
+    cursor: 'pointer';
+    background: rgba(160, 160, 160, 0.47);
+    border: 1px dashed #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.opcaoVazioCriacao {
+    display: flex;
+    box-sizing: border-box;
+    width: 28vw;
+    height: 5vh;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 2vh;
+    background: rgba(160, 160, 160, 0.47);
+    border: 1px dashed #FFFFFF;
+    cursor: pointer;
+}
+
+.botaoSalvarPagina {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 85%;
+    box-sizing: border-box;
+    width: 8.5vw;
+    height: 6vh;
+    background-color: #22285F;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 140%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.botaoRemoverPagina {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 70%;
+    box-sizing: border-box;
+    width: 8.5vw;
+    height: 6vh;
+    background-color: #22285F;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 140%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.botaoCancelarEdicaoPagina {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 60%;
+    box-sizing: border-box;
+    width: 8.5vw;
+    height: 6vh;
+    background-color: #22285F;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 140%;
+    font-weight: bolder;
+    cursor: pointer;
+}

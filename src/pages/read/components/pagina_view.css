@@ -1,0 +1,59 @@
+.historia {
+    display: flex;
+    position: fixed;
+    top: 28%;
+    left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 60vh;
+    height: 40vh;
+    background: #6B6969;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 110%;
+    padding: 2%;
+}
+
+.imagem {
+    position: fixed;
+    top: 28%;
+    right: 5%;
+    width: 55vw;
+    height: 62vh;
+    border-radius: 20px;
+    cursor:'pointer'
+}
+
+.imagemExpandida {
+    width: 95vw;
+    height: 70vh;
+    border-radius: 20px;
+    cursor:'pointer'
+}
+
+.opcao {
+    display: flex;
+    box-sizing: border-box;
+    width: 28vw;
+    height: 3vw;
+    border: 0.2vh solid #247CFF;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 140%;
+    font-weight: bold;
+    margin-top: 2vh;
+    cursor: pointer;
+}

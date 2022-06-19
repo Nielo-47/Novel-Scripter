@@ -1,0 +1,58 @@
+.editarAtributosHistoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 110%;
+    width: 90%;
+}
+
+.tituloEGenero {
+    display: flex;
+    height: 16vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vh;
+    font-size: 110%;
+    color: white;
+    font-weight: bold;
+}
+
+.atributoEditavel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.selecionarGenero {
+    width: 15vw;
+    font-size: 110%;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.selecionarGenero:focus {
+    color: black;
+}
+
+.botaoSalvarHistoria {
+    display: flex;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 8vh;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    background-color: #22285F;
+}

@@ -1,0 +1,61 @@
+.thumbnailPagina {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    width: 12vw;
+    height: 13vh;
+    background: rgba(160, 160, 160, 0.47);
+    border: 1px dashed #FFFFFF;
+    align-items: flex-start;
+    padding: 1vw;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.historiaThumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoThumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 3vw;
+    height: 6vh;
+    background: #6B6969;
+    border: 1px solid #FEFEFE;
+    border-radius: 2.5px;
+    color: white;
+    font-weight: 600;
+    font-size: 1%;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.imagemThumb {
+    width: 62%;
+    height: 85%;
+    border-radius: 3px;
+    cursor:'pointer'
+}
+
+.opcaoThumb {
+    display: flex;
+    box-sizing: border-box;
+    width: 3vw;
+    height: 0.75vh;
+    border: 0.2px solid #247CFF;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 140%;
+    font-weight: bold;
+    margin-top: 2%;
+    cursor: pointer;
+}

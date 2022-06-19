@@ -1,0 +1,8 @@
+.areaLeitura {
+    display: flex;
+    height: 80.5vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

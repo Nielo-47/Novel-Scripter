@@ -1,0 +1,13 @@
+.adicionarPagina {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 12vw;
+    height: 13vh;
+    background: rgba(160, 160, 160, 0.47);
+    border: 1px dashed #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 100%;
+}

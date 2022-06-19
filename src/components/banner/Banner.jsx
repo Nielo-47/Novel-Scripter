@@ -1,6 +1,6 @@
 import React from 'react'
 import './banner.css'
-import Botao from './components/button'
+import BotaoLoginCadastro from './components/login_botao/login_botao.jsx'
 
 function Banner() {
     return (
@@ -20,9 +20,9 @@ function Banner() {
             </div>
             <div style={{ display: 'flex', marginBottom: '7vh'}}>
                 <div className='login' >
-                    <Botao acao="Entrar" />
+                    <BotaoLoginCadastro acao="Entrar" />
                     <div style={{ marginLeft: '1vw' }} />
-                    <Botao acao="Criar conta" />
+                    <BotaoLoginCadastro acao="Criar conta" />
                 </div>
             </div>
         </div>

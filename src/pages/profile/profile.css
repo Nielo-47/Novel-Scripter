@@ -1,0 +1,17 @@
+.perfil{
+    display: flex;
+    height: 80.5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.moldura {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 90vw;
+    height: 75vh;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+}

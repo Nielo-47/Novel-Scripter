@@ -1,0 +1,16 @@
+.modalCriarImagem {
+    display: flex;
+    box-sizing: border-box;
+    width: 45vw;
+    height: 30vh;
+    background: linear-gradient(180deg, #5E0B91 0%, #472C6A 57.29%, #000000 100%);
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 150%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}

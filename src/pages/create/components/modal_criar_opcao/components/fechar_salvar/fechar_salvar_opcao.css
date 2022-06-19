@@ -1,0 +1,8 @@
+.fecharSalvarOpcao{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 5%;
+    width: 90%;
+}

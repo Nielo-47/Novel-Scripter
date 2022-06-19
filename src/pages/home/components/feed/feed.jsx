@@ -1,9 +1,11 @@
 import React from 'react'
 import StarIcon from '@mui/icons-material/Star';
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import './feed.css'
 
 function Feed() {
+    let navigate = useNavigate();
+
     return (
         <div className='feed'>
             <div className='historiaEmDestaque'>
@@ -14,10 +16,15 @@ function Feed() {
                     className='fotoDestaque'
                     src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
                     alt='new'
+                    onClick={() => {
+                        navigate(`/read/idHistoria/0`);
+                    }}
                 />
             </div>
             <div >
-                <div className='tituloHistoria'>
+                <div className='tituloHistoria' onClick={() => {
+                    navigate(`/read/idHistoria/0`);
+                }}>
                     O bichinho do Lago
                 </div>
                 <div className='descricaoHistoria'>

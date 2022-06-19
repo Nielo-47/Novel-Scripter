@@ -1,6 +1,6 @@
 .feed {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     margin: 6vh;
     padding: 5vh;
     flex-direction: row;
@@ -48,6 +48,7 @@
     background-color: #482758;
     font-size: 4vh;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .descricaoHistoria {
@@ -64,6 +65,8 @@
     border-bottom-right-radius: 25px;
     background: linear-gradient(180deg, #60A3C0 0%, #71587C 51.04%, rgba(35, 44, 128, 0.994792) 100%);
     font-size: 3vh;
+    border: 1px solid #FEFEFE;
+    border-top: 0;
 }
 
 .autorEAvaliacao {

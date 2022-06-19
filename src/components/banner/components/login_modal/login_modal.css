@@ -1,0 +1,59 @@
+.loginModal {
+    display: flex;
+    box-sizing: border-box;
+    width: 57.4vh;
+    height: 82vh;
+    background: linear-gradient(180deg, #5E0B91 0%, #472C6A 57.29%, #000000 100%);
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 150%;
+}
+
+.cadastroModal {
+    display: flex;
+    box-sizing: border-box;
+    width: 57.4vh;
+    height: 95vh;
+    background: linear-gradient(180deg, #5E0B91 0%, #472C6A 57.29%, #000000 100%);
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 150%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.tituloSite {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: stretch;
+    align-items: center;
+    width: 60%;
+}
+
+.botaoConfirmar {
+    display: flex;
+    box-sizing: border-box;
+    width: 10vw;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}

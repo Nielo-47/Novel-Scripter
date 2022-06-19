@@ -1,0 +1,30 @@
+.suasHistorias {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.apresentacao {
+    display: flex;
+    box-sizing: border-box;
+    width: 8.5vw;
+    height: 6vh;
+    border: 1px solid #FEFEFE;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.6vh;
+    background: #60A3C0;
+}
+
+.listaHistorias {
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 1px solid #FEFEFE;
+    padding: 2vw;
+    overflow-y: scroll;
+    margin-top: 2vh;
+}
