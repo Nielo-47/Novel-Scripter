@@ -157,7 +157,7 @@ function CriacaoPagina({ cancelarEdicao, salvarPagina, removerPagina, paginaAtua
                 Remover página
             </div>
             <div className='botaoSalvarPagina' onClick={() => {
-                if (pagina.imagem != null || pagina.imagem != null || pagina.textoOpcoes.filter((opcao) => opcao != null).length >= 1) {
+                if ((pagina.imagem != null || pagina.texto != null) && pagina.textoOpcoes.filter((opcao) => opcao != null).length >= 1) {
                     salvarPagina(pagina)
                 }
             }}>

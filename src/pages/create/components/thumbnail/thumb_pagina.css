@@ -11,6 +11,9 @@
     justify-content: space-around;
     cursor: pointer;
 }
+.thumbnailPagina:hover{
+    border: 1px solid #22285F;
+}
 
 .historiaThumb {
     display: flex;

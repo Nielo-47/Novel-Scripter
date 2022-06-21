@@ -13,13 +13,13 @@ function ItemHistoria() {
                 src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
                 alt='new'
                 onClick={() => {
-                    navigate(`/read/idHistoria/0`);
+                    navigate(`/read/idHistoria/1`);
                 }}
             />
 
             <div >
                 <div className='tituloHistoriaPerfil' onClick={() => {
-                    navigate(`/read/idHistoria/0`);
+                    navigate(`/read/idHistoria/1`);
                 }}>
                     O bichinho do Lago
                 </div>

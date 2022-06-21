@@ -11,10 +11,10 @@ function BlocoHistoria() {
             <div className='tituloHistoriaTimeline' onClick={() => {
                 navigate(`/read/idHistoria/1`);
             }}>
-                O bichinho do Lago
+                O Bichinho do Lago
             </div>
             <div className='descricaoHistoriaTimeline'>
-                <div style={{fontWeight:'600'}}>Aventura / Drama</div>
+                <div style={{fontWeight:'400'}}>Aventura</div>
                 <div >Bichinho do lago so queria paz no lago dele, quando....</div>
                 <div className='autorEAvaliacaoTimeline'>
                     <div>Por: Saitama</div>

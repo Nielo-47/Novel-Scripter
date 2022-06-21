@@ -13,6 +13,7 @@ function Read() {
 
     const controller = new ReadController(historia);
     console.log('HISTORIA', historia)
+    console.log('HISTORIA CONTROLLER', controller.historia)
     console.log('ID PAGINA', idPagina)
     controller.pagina = controller.historia.paginas.filter((pag) => pag.id.toString() === idPagina)[0]
     for (const pagina of controller.historia.paginas) {

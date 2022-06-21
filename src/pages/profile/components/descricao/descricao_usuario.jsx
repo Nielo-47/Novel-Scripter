@@ -17,7 +17,7 @@ function Descricao() {
             </div>
             <div className='botaoCriar' onClick={() => navigate("/create")}>
                 <CreateIcon fontSize='large' />
-                Criar nova história
+                <div>Criar nova história</div>
             </div>
         </div>
     )

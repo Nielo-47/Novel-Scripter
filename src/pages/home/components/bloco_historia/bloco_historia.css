@@ -3,14 +3,18 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    height: 2vw;
-    width: 20vw;
+    height: 3vw;
+    width: 23vw;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: #482758;
     font-size: 120%;
     cursor: pointer;
     font-weight: bold;
+}
+
+.tituloHistoriaTimeline:hover{
+    background: #22285F;
 }
 
 .descricaoHistoriaTimeline {
@@ -20,7 +24,7 @@
     justify-content: space-around;
     flex-direction: column;
     height: 9vw;
-    width: 20vw;
+    width: 23vw;
     padding-left: 5vw;
     padding-right: 5vw;
     border-bottom-left-radius: 25px;

@@ -1,17 +1,15 @@
-
 .destaque {
     display: flex;
     align-items: flex-end;
-    padding: 5vh;
     flex-direction: row;
     justify-content: space-around;
     color: white;
-    width: 100%;
 }
 
 .historiaEmDestaque {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -50,6 +48,10 @@
     font-size: 4vh;
     cursor: pointer;
     font-weight: 500;
+}
+
+.tituloHistoria:hover {
+    background: #22285F;
 }
 
 .descricaoHistoria {

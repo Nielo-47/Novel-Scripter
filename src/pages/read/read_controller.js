@@ -4,7 +4,7 @@ import Pagina from "../../models/pagina_model"
 class ReadController {
     constructor(historia) {
         this.visualizacao = 'padrao'
-        this.historia = historia ?? new Historia(
+        this.historia = (historia == null || historia == undefined) ? new Historia(
             '20',
             'O Bichinho do Lago',
             'Drama',
@@ -19,18 +19,19 @@ class ReadController {
         Qual é sua resposta?`,
                     ['“Fala tu vetim, seloko, pai ta on.”', '“Apenas de passagem, nobre dragão.”', 'Finge que nem viu.'],
                     [2, 2, 2],
-                    "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+                    "https://c.wallhere.com/photos/7e/fa/dragon_knight_art_boat-997524.jpg!d",
                     '1'
                 ),
                 new Pagina(
                     `Você é atacado pelo dragão e morre de uma maneira horrível.`,
                     ['Finalizar aventura', null, null],
                     [-1, null, null],
-                    null,
+                    "http://wallpapers.net/web/wallpapers/sea-monster-attacks-boathd-wallpaper/thumbnail/lg.png",
                     '2'
                 ),
             ]
-        )
+        ) : historia;
+
         this.pagina = null;
     }
 }

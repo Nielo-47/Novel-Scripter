@@ -9,3 +9,9 @@
     justify-content: space-around;
     cursor: pointer;
 }
+
+.botaoNav:hover{
+    background: white;
+    background-color: 'white';
+    color: black;
+}

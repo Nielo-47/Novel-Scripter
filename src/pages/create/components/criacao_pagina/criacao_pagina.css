@@ -121,7 +121,7 @@
     top: 92%;
     left: 85%;
     box-sizing: border-box;
-    width: 8.5vw;
+    width: max-content;
     height: 6vh;
     background-color: #22285F;
     border: 1px solid #FEFEFE;
@@ -129,9 +129,10 @@
     align-items: center;
     justify-content: space-around;
     color: white;
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bolder;
     cursor: pointer;
+    padding: 1%;
 }
 
 .botaoRemoverPagina {
@@ -140,7 +141,7 @@
     top: 92%;
     left: 70%;
     box-sizing: border-box;
-    width: 8.5vw;
+    width: max-content;
     height: 6vh;
     background-color: #22285F;
     border: 1px solid #FEFEFE;
@@ -148,9 +149,10 @@
     align-items: center;
     justify-content: space-around;
     color: white;
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bolder;
     cursor: pointer;
+    padding: 1%;
 }
 
 .botaoCancelarEdicaoPagina {
@@ -159,7 +161,8 @@
     top: 92%;
     left: 60%;
     box-sizing: border-box;
-    width: 8.5vw;
+    width: max-content;
+    padding: 1%;
     height: 6vh;
     background-color: #22285F;
     border: 1px solid #FEFEFE;
@@ -167,7 +170,7 @@
     align-items: center;
     justify-content: space-around;
     color: white;
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bolder;
     cursor: pointer;
 }

@@ -23,6 +23,7 @@
     font-weight: 600;
     font-size: 110%;
     padding: 2%;
+    overflow-y: auto;
 }
 
 .imagem {
@@ -32,21 +33,26 @@
     width: 55vw;
     height: 62vh;
     border-radius: 20px;
-    cursor:'pointer'
+    cursor: 'pointer';
+}
+
+.imagem:hover {
+    width: 58vw;
+    height: 64vh;
 }
 
 .imagemExpandida {
     width: 95vw;
     height: 70vh;
     border-radius: 20px;
-    cursor:'pointer'
+    cursor: 'pointer'
 }
 
 .opcao {
     display: flex;
     box-sizing: border-box;
     width: 28vw;
-    height: 3vw;
+    height: 6vh;
     border: 0.2vh solid #247CFF;
     border-radius: 25px;
     justify-content: center;
@@ -56,4 +62,9 @@
     font-weight: bold;
     margin-top: 2vh;
     cursor: pointer;
+    overflow-y: auto;
+}
+
+.opcao:hover {
+    height: 8vh;
 }

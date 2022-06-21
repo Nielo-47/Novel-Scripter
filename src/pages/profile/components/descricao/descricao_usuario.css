@@ -25,7 +25,8 @@
 .nomeUsuario {
     display: flex;
     box-sizing: border-box;
-    width: 8.5vw;
+    width: max-content;
+    padding: 5%;
     height: 6vh;
     border: 1px solid #FEFEFE;
     border-radius: 25px;
@@ -43,8 +44,13 @@
     border: 1px solid #FEFEFE;
     border-radius: 25px;
     height: 12vh;
-    width: 15vw;
+    width: max-content;
     background-color: transparent;
-    font-size: 180%;
+    font-size: 150%;
     cursor: pointer;
+}
+
+.botaoCriar:hover{
+    background: #22285F;
+    color:white;
 }

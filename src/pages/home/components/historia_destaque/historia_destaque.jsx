@@ -14,7 +14,7 @@ function HistoriaDestaque() {
                 </div>
                 <img
                     className='fotoDestaque'
-                    src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+                    src="https://c.wallhere.com/photos/7e/fa/dragon_knight_art_boat-997524.jpg!d"
                     alt='new'
                     onClick={() => {
                         navigate(`/read/idHistoria/1`);

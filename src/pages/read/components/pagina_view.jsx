@@ -16,7 +16,7 @@ function Opcao({ cor, indice, controller }) {
             className='opcao'
             style={{ backgroundColor: corBackground, borderColor: corBorda, color: corLetras, visibility: controller.pagina.textoOpcoes[indice] === null ? 'hidden' : 'visible' }}
             onClick={() => {
-                if (controller.pagina.linkOpcoes[indice] != -1) {
+                if (controller.pagina.linkOpcoes[indice] !== -1) {
                     navigate(`/read/${controller.historia.titulo}/${controller.pagina.linkOpcoes[indice]}`,
                         {
                             state: {

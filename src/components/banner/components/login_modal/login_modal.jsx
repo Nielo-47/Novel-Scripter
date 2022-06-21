@@ -2,6 +2,7 @@ import './login_modal.css'
 import TextField from '@mui/material/TextField';
 import React from 'react'
 import { useNavigate } from "react-router-dom";
+import { textAlign } from '@mui/system';
 
 function Cabecalho() {
     return (
@@ -76,13 +77,13 @@ function LoginModal(props) {
         <div className={props.tipo === 'login' ? 'loginModal' : 'cadastroModal'}>
             <Cabecalho />
             {props.tipo === 'login' ? <CamposLogin /> : <CamposCadastro />}
-            <div className='botaoConfirmar' style={{ cursor: 'pointer' }} onClick={() => {
+            <div className='botaoConfirmar' style={{ cursor: 'pointer', marginTop:"5%", marginBottom:"5%" }} onClick={() => {
                 navigate(`/profile/idUsuario`);
                 props.fecharModal();
             }}>
                 {props.tipo === 'login' ? 'Entrar' : 'Cadastre-se'}
             </div>
-            <div style={{ cursor: 'pointer' }} onClick={props.abrirCadastro}>
+            <div style={{ cursor: 'pointer', textAlign:'center'}} onClick={props.abrirCadastro}>
                 {props.tipo === 'login' ? 'Não possui uma conta? CADASTRE-SE' : null}
             </div>
 

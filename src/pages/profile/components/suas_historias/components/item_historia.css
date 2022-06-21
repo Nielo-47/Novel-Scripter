@@ -43,6 +43,10 @@
     font-weight: 500;
 }
 
+.tituloHistoriaPerfil:hover{
+    background: #22285F;
+}
+
 .descricaoHistoriaPerfil {
     display: flex;
     box-sizing: border-box;
